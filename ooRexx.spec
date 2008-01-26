@@ -12,7 +12,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/oorexx/%{name}-%{version}.tar.gz
 # Source0-md5:	4a3220466acd13028311e3498efb306a
 URL:		http://www.oorexx.org/
-ExcludeArch:	%{x8664} alpha ppc64 sparc64
+ExcludeArch:	%{x8664} alpha ia64 ppc64 s390x sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
