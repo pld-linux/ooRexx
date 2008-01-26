@@ -10,7 +10,7 @@ Release:	0.1
 License:	CPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/oorexx/%{name}-%{version}.tar.gz
-# Source0-md5:	d9801c4c7981328ea063f1a2fd2216a5
+# Source0-md5:	4a3220466acd13028311e3498efb306a
 URL:		http://www.oorexx.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
